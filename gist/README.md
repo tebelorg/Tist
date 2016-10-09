@@ -1,1 +1,1 @@
-This folder contains index.php which presents your embedded gist as a single page with header background image, and also .htaccess file in order to map /gist/name_of_your_gist into /gist/index.php?show=name_of_your_gist.
+This folder contains index.php which presents your embedded gist as a single page with header background image, and also .htaccess file for mapping /gist/name_of_your_gist to /gist/index.php?show=name_of_your_gist.
