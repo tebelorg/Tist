@@ -1,7 +1,7 @@
 # TA.Gist
 TA.Gist presents your GitHub gists beautifully // an ultra-light PHP framework
 
-This is a sample raw text gist - http://tebel.sg/gist/contact_virtual_reality 
+This is a sample raw text gist - http://tebel.sg/gist/contact_virtual_reality
 
 # Why This
 If you don't want to spend your life fiddling with themes and plugins just to post something. If you want to have control over layout and styling. If you are the kind of person who, for whatever reason, rather store your content on GitHub.
@@ -10,7 +10,7 @@ If you don't want to spend your life fiddling with themes and plugins just to po
 1. Upload the folders and files to your website root directory
 2. Setup /gist/index.php to your domain name and GitHub User ID
 
-/gist/index.php includes setup comments in uppercase for your action, and general comments in lowercase.
+NOTE: /gist/index.php includes setup comments in uppercase for your action, and general comments in lowercase. Make sure the hidden /gist/.htaccess file is also uploaded to your website. It helps to map a friendly URL to your gist.
 
 # Using It
 1. Create a gist in your GitHub account and save as raw text without extension
@@ -20,4 +20,4 @@ If you don't want to spend your life fiddling with themes and plugins just to po
 5. Access your beautiful gist at your_website_domain_name/gist/name_of_your_gist
 
 # License
-TA.Gist is open-source software released under the MIT license.
+TA.Gist is open-source software released under the MIT license
