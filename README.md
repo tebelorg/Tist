@@ -1,2 +1,2 @@
 # TA.Gist
-TA.Gist presents your GitHub gists beautifully as an ultra-light PHP framework
+TA.Gist presents your GitHub gists beautifully // an ultra-light PHP framework
