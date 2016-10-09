@@ -1,0 +1,1 @@
+This folder contains index.php which presents your embedded gists in a single with with a header background, and also .htaccess file to map /gist/index.php?show=name_of_your_gist into /gist/name_of_your_gist.
