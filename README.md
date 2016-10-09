@@ -18,3 +18,6 @@ If you don't want to spend your life fiddling with themes and plugins just to po
 3. Save a 1440 x 480 .jpeg image to /media folder using same name as your gist
 4. TA.Gist presents your gist as a single page with header image and custom styling
 5. Access your beautiful gist at your_website_domain_name/gist/name_of_your_gist
+
+# License
+TA.Gist is open-source software released under the MIT license.
