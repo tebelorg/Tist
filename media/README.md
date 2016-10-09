@@ -1,0 +1,1 @@
+This folder contains sample header background images and a sample logo to be used by /gist/index.php. It also contains Mobile_Detect.php from mobiledetect.net that helps to identify whether the user is accessing your page from a desktop computer or mobile device.
