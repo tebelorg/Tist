@@ -1,5 +1,5 @@
 # TA.Gist
-TA.Gist presents your GitHub gists beautifully // an ultra-light PHP framework
+TA.Gist presents your GitHub gists beautifully // an ultra-light PHP template
 
 This is a sample raw text gist - http://tebel.sg/gist/contact_virtual_reality
 
