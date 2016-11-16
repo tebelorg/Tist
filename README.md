@@ -8,7 +8,7 @@ If you don't want to spend your life fiddling with themes and plugins just to po
 
 # Set Up
 1. Upload the folders and files to your website root directory
-2. Setup /gist/index.php to your domain name and GitHub User ID
+2. Point /gist/index.php to your website URL and GitHub User ID
 
 Make sure /gist/.htaccess is uploaded to map friendly gist URLs
 
