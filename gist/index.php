@@ -51,14 +51,14 @@ if ($gist_found == FALSE)
 	// present different size and position for logo icon base on the user device
 	require_once '../media/Mobile_Detect.php'; $detect = new Mobile_Detect;
 	if ($detect->isMobile())
-		$icon_size = "float: right; margin: 389px 36px 36px 36px; width: 55px; height: 55px;";
+		$icon_size = "float: right; margin: 333px 36px 36px 36px; width: 111px; height: 111px;";
 	else
-		$icon_size = "float: right; margin: 429px 18px 18px 18px; width: 33px; height: 33px;";
-
+		$icon_size = "float: right; margin: 388px 18px 18px 18px; width: 74px; height: 74px;";
+	
 	// CHANGE TO YOUR DOMAIN NAME AND LOGO ICON, TO SHOW BACKLINK ICON TO YOUR MAIN PAGE
 	// SAVE YOUR HEADER IMAGES (1440 x 480) IN .jpeg FORMAT USING SAME NAME AS YOUR GIST NAME
 	echo "<header style=\"height: 480px; background: url(../media/" . $_GET['show'] . ".jpeg) no-repeat center; background-size: cover;\">
-	<a href=\"http://tebel.org\"><img src=\"../media/tebel_icon.png\" title=\"Home\" style=\"opacity: 0.81; " . $icon_size . "\"></a></header>\n<p></p>\n";
+	<a href=\"http://tebel.org\"><img src=\"../media/tebel_icon.png\" title=\"Home\" style=\"opacity: 1; " . $icon_size . "\"></a></header>\n<p></p>\n";
 
 	// CHANGE BELOW TO YOUR GITHUB USERID TO LOAD YOUR EMBEDDED GIST FROM GITHUB
 	echo "<script src=\"https://gist.github.com/rallyartist/" . $gist[$_GET['show']] . ".js\"></script>\n";	
