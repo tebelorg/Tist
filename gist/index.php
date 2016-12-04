@@ -1,5 +1,5 @@
 <?php
-/* TA.Gist presents your GitHub gists beautifully // ultra-light PHP template    */
+/* TA.Gist is a PHP template that presents your GitHub gists beautifully         */
 /* This is a sample raw text gist - http://tebel.sg/gist/contact_virtual_reality */
 /* Setup comments in uppercase for your action, general comments in lowercase    */
 /* For more info and GitHub repository - https://github.com/tebelorg/TA.Gist     */
