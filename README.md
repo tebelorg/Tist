@@ -19,5 +19,10 @@ Make sure /gist/.htaccess is uploaded to map friendly gist URLs
 
 Access your beautiful gist at your_website_url/gist/your_gist_name
 
+# Pipeline
+Feature|Details
+:-----:|:------
+Enhancements|feel free to review and suggest new features
+
 # License
 TA.Gist is open-source software released under the MIT license
