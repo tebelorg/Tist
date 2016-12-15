@@ -22,6 +22,7 @@ Access your beautiful gist at your_website_url/gist/your_gist_name
 # Pipeline
 Feature|Details
 :-----:|:------
+Auto-indexing|auto-generate gist ID-name mapping using curl
 Enhancements|feel free to review and suggest new features
 
 # License
