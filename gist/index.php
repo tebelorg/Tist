@@ -18,7 +18,8 @@ if ($gist_found == FALSE) {header("Location: https://github.com/404"); exit;}
 // OPTION 1 - END OF BLOCK
 
 /*
-// OPTION 2 - AUTO UPDATING OF GIST NAME AND ID, WILL BREAK WHEN GITHUB UPDATES LAYOUT
+// OPTION 2 - AUTO UPDATING OF GIST NAME AND ID
+// WARNING - WILL BREAK WHEN GITHUB UPDATES LAYOUT
 include('gist_map.php'); $gist_found = FALSE;
 foreach ($gist as $gist_name => $gist_id) {if ($gist_name == $_GET['show']) $gist_found = TRUE;}
 if ($gist_found == FALSE) {
