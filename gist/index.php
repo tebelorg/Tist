@@ -61,7 +61,7 @@ if ($gist_found == FALSE)
 	<a href=\"http://tebel.org\"><img src=\"../media/tebel_icon.png\" title=\"Home\" style=\"opacity: 1; " . $icon_size . "\"></a></header>\n<p></p>\n";
 
 	// CHANGE BELOW TO YOUR GITHUB USERID TO LOAD YOUR EMBEDDED GIST FROM GITHUB
-	echo "<script src=\"https://gist.github.com/rallyartist/" . $gist[$_GET['show']] . ".js\"></script>\n";	
+	echo "<script src=\"https://gist.github.com/kensoh/" . $gist[$_GET['show']] . ".js\"></script>\n";	
 
 	// load custom css base on user device to overwrite default gist styling for raw text gist (non .md)
 	if ($detect->isMobile())
