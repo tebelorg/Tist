@@ -4,6 +4,7 @@
 /* Setup comments in uppercase for your action, general comments in lowercase    */
 /* For more info and GitHub repository - https://github.com/tebelorg/TA.Gist     */
 
+// OPTION 1 - MANUAL UPDATING OF GIST NAME AND ID
 // ADD GIST NAME FOR YOUR GIST AND ITS ID IN THE FOLLOWING FORMAT
 $gist = [
 	"interface_automation" => "1d1722fb7feab973576a6e2a02a8da93",
@@ -11,12 +12,24 @@ $gist = [
 	"digital-world_problems" => "e67a8c0048e918ce5bc102f8b85bd9ae",
 	"credits_and_attribution" => "85c581db27bb2932ca35f9685598358a",
 ];
+$gist_found = FALSE;
+foreach ($gist as $gist_name => $gist_id) {if ($gist_name == $_GET['show']) $gist_found = TRUE;}
+if ($gist_found == FALSE) {header("Location: https://github.com/404"); exit;}
+// OPTION 1 - END OF BLOCK
 
-// throw 404 error if input gist name is not found in above list
-$gist_found = FALSE; foreach ($gist as $gist_name => $gist_id)
-	{if ($gist_name == $_GET['show']) $gist_found = TRUE;}
-if ($gist_found == FALSE)
-	{header("Location: https://github.com/404"); exit;}
+/*
+// OPTION 2 - AUTO UPDATING OF GIST NAME AND ID, WILL BREAK WHEN GITHUB UPDATES LAYOUT
+include('gist_map.php'); $gist_found = FALSE;
+foreach ($gist as $gist_name => $gist_id) {if ($gist_name == $_GET['show']) $gist_found = TRUE;}
+if ($gist_found == FALSE) {
+	$user_id = 'kensoh'; // CHANGE THIS TO YOUR GITHUB USERID
+	include('update.php'); include('gist_map.php');
+	foreach ($gist as $gist_name => $gist_id) {if ($gist_name == $_GET['show']) $gist_found = TRUE;}
+	if ($gist_found == FALSE) {header("Location: https://github.com/404"); exit;}
+}
+// OPTION 2 - END OF BLOCK
+*/
+
 ?>
 
 <!DOCTYPE HTML>
