@@ -17,7 +17,7 @@ while ($gist_item != ""); fwrite($gist_file, "];\r\n?>"); fclose($gist_file);
 // get the nth gist id and name from list of gists
 function read_gist($web_content,$item_count) {
 	// assign string tokens to search for, may need updating when GitHub Gist layout changes
-	$token1 = "/ <a href=\"/".$GLOBALS['user_id']."/";
+	$token1 = "/ <a href=\"/".$GLOBALS['user_id']."/"; // use GitHub user id set in index.php
 	$token2 = "\"><strong class=\"css-truncate-target\">";
 	$token3 = "</strong></a>";
 
@@ -27,7 +27,7 @@ function read_gist($web_content,$item_count) {
 	$mid_pos = strpos($web_content,$token2,$start_pos); if (!$mid_pos) return "";
 	$end_pos = strpos($web_content,$token3,$start_pos); if (!$end_pos) return ""; 
 
-	// extract the id and name to be returned for writing to gist_map.csv file
+	// extract the id and name to be returned for writing to gist_map.php file
 	$gist_id = substr($web_content,$start_pos+strlen($token1),$mid_pos-$start_pos-strlen($token1));
 	$gist_name = substr($web_content,$mid_pos+strlen($token2),$end_pos-$mid_pos-strlen($token2));
 	return "\"".$gist_name ."\" => \"" . $gist_id . "\",\r\n";
