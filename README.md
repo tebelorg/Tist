@@ -3,6 +3,8 @@ TA.Gist is a PHP template that displays your GitHub gists as blog posts
 
 This is a sample raw text gist - http://tebel.sg/gist/contact_virtual_reality
 
+![Sample Gist](https://github.com/tebelorg/TA.Gist/blob/master/media/sample_raw_text_gist.jpeg)
+
 # Why This
 If you don't want to spend your life fiddling with themes and plugins just to post something. If you want to have control over layout and styling. If you are the kind of person who, for whatever reason, rather store your content on GitHub.
 
