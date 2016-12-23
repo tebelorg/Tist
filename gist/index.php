@@ -1,16 +1,16 @@
 <?php
-/* TA.Gist is a PHP template that displays your GitHub gists as blog posts       */
-/* This is a sample raw text gist - http://tebel.sg/gist/contact_virtual_reality */
-/* Setup comments in uppercase for your action, general comments in lowercase    */
-/* For more info and GitHub repository - https://github.com/tebelorg/TA.Gist     */
+/* TA.Gist is a PHP template that displays your GitHub gists as blog posts     */
+/* This is a sample raw text gist - http://tebel.sg/gist/interface_automation  */
+/* Setup comments in uppercase for your action, general comments in lowercase  */
+/* For more info and GitHub repository - https://github.com/tebelorg/TA.Gist   */
 
 // OPTION 1 - MANUAL UPDATING OF GIST NAME AND ID
 // ADD GIST NAME FOR YOUR GIST AND ITS ID IN THE FOLLOWING FORMAT
 $gist = [
 	"interface_automation" => "1d1722fb7feab973576a6e2a02a8da93",
-	"contact_virtual_reality" => "740659f1ad86831261d418e55f180a2b",
 	"digital-world_problems" => "e67a8c0048e918ce5bc102f8b85bd9ae",
 	"credits_and_attribution" => "85c581db27bb2932ca35f9685598358a",
+	"open-source_attribution" => "a678b5f0c06724b9079845f187b3d26f",
 ];
 $gist_found = FALSE;
 foreach ($gist as $gist_name => $gist_id) {if ($gist_name == $_GET['show']) $gist_found = TRUE;}
@@ -72,7 +72,7 @@ if ($gist_found == FALSE) {
 	// CHANGE TO YOUR DOMAIN NAME AND LOGO ICON, TO SHOW BACKLINK ICON TO YOUR MAIN PAGE
 	// SAVE YOUR HEADER IMAGES (1440 x 480) IN .jpeg FORMAT USING SAME NAME AS YOUR GIST NAME
 	echo "<header style=\"height: 480px; background: url(../media/" . $_GET['show'] . ".jpeg) no-repeat center; background-size: cover;\">
-	<a href=\"http://tebel.org\"><img src=\"../media/tebel_icon.png\" title=\"Home\" style=\"opacity: 1; " . $icon_size . "\"></a></header>\n<p></p>\n";
+	<a href=\"http://tebel.org\"><img src=\"../media/tebel_icon.png\" title=\"Home\" style=\"opacity: 0.90; " . $icon_size . "\"></a></header>\n<p></p>\n";
 
 	// CHANGE BELOW TO YOUR GITHUB USERID TO LOAD YOUR EMBEDDED GIST FROM GITHUB
 	echo "<script src=\"https://gist.github.com/kensoh/" . $gist[$_GET['show']] . ".js\"></script>\n";	
