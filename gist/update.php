@@ -1,9 +1,8 @@
 <?php
-
-/* TA.Gist is a PHP template that displays your GitHub gists as blog posts       */
-/* This is a sample raw text gist - http://tebel.sg/gist/contact_virtual_reality */
-/* Script to update gist ID-name mapping if provided gist name is not found      */
-/* For more info and GitHub repository - https://github.com/tebelorg/TA.Gist     */
+/* TA.Gist is a PHP template that displays your GitHub gists as blog posts     */
+/* This is a sample raw text gist - http://tebel.sg/gist/interface_automation  */
+/* Script to update gist ID-name mapping if provided gist name is not found    */
+/* For more info and GitHub repository - https://github.com/tebelorg/TA.Gist   */
 
 // retrieve gist listing on github page
 $gist_URL = 'https://gist.github.com/' . $user_id;
