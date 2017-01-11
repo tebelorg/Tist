@@ -1,6 +1,6 @@
 <?php
 /* TA.Gist is a PHP template that displays your GitHub gists as blog posts     */
-/* This is a sample raw text gist - http://tebel.sg/gist/interface_automation  */
+/* This is a sample raw text gist - http://tebel.org/gist/interface_automation */
 /* Script to update gist ID-name mapping if provided gist name is not found    */
 /* For more info and GitHub repository - https://github.com/tebelorg/TA.Gist   */
 
