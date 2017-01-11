@@ -61,12 +61,12 @@ if ($gist_found == FALSE) {
 
 <body style="padding: 0; margin: 0; overflow-y: scroll;">
 	<?php
-	// present different size and position for logo icon base on the user device
+	// option to present different sizes and positions for logo base on user device
 	require_once '../media/Mobile_Detect.php'; $detect = new Mobile_Detect;
 	if ($detect->isMobile())
 		$icon_size = "float: right; margin: 333px 36px 36px 36px; width: 111px; height: 111px;";
 	else
-		$icon_size = "float: right; margin: 388px 18px 18px 18px; width: 74px; height: 74px;";
+		$icon_size = "float: right; margin: 333px 36px 36px 36px; width: 111px; height: 111px;";
 
 	// CHANGE TO YOUR DOMAIN NAME AND LOGO ICON, TO SHOW BACKLINK ICON TO YOUR MAIN PAGE
 	// SAVE YOUR HEADER IMAGES (1440 x 480) IN .jpeg FORMAT USING SAME NAME AS YOUR GIST NAME
