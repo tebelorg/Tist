@@ -1,12 +1,12 @@
 .gist {
-	width: 87%;
+	width: 90%;
 	margin: auto;
 }
 
 .gist .blob-code-inner {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
-	line-height: 1.8;
+	line-height: 1.7;
 	white-space: pre-wrap;
 }
 
