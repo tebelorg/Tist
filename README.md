@@ -6,9 +6,11 @@ TA.Gist is a PHP template that displays your GitHub gists as blog posts
 # Why This
 If you don't want to spend your life fiddling with themes and plugins just to post something. If you want to have control over layout and styling. If you are the kind of person who, for whatever reason, rather store your content on GitHub.
 
+Originally developed as a minimalist alternative to mainstream blogging platforms such as WordPress or Medium etc.
+
 # Set Up
 1. Upload the folders and files to your website root directory
-2. Modify /gist/index.php to your website URL and GitHub User ID
+2. Modify /gist/index.php to your website URL and GitHub User
 3. Choose in index.php manual update or auto-index of gist IDs
 
 Make sure /gist/.htaccess is uploaded to map friendly gist URLs
