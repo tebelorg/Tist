@@ -10,7 +10,7 @@ If you don't want to spend your life fiddling with themes and plugins just to po
 1. Upload the folders and files to your website root directory
 2. Modify /gist/index.php to your website URL and GitHub User ID
 
-(choose between option 1 manual update or option 2 auto-index)
+(choice between manual updating or auto-indexing of IDs)
 
 Make sure /gist/.htaccess is uploaded to map friendly gist URLs
 
