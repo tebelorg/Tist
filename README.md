@@ -9,16 +9,14 @@ If you don't want to spend your life fiddling with themes and plugins just to po
 # Set Up
 1. Upload the folders and files to your website root directory
 2. Modify /gist/index.php to your website URL and GitHub User ID
-
-(choice between manual updating or auto-indexing of gist IDs)
+3. Choose in index.php manual update or auto-index of gist IDs
 
 Make sure /gist/.htaccess is uploaded to map friendly gist URLs
 
 # To Use
 1. Create a gist in your GitHub account and save as raw text without extension
 2. Save a 1440 x 480 .jpeg image to /media folder using same name as your gist
-
-(if manual update is chosen, add a line in /gist/index.php for your new gist)
+3. If manual update is chosen, add a line in /gist/index.php for your new gist
 
 Access your beautiful gist at your_website_url/gist/your_gist_name
 
