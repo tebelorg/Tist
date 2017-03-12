@@ -1,5 +1,5 @@
 # TA.Gist
-TA.Gist is a PHP template that displays your GitHub gists as blog posts
+TA.Gist is a PHP template that displays your GitHub gists as blog posts - http://tebel.org
 
 ![Sample Gist](https://github.com/tebelorg/TA.Gist/raw/master/media/sample_raw_text_gist.jpeg)
 
