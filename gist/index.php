@@ -1,8 +1,8 @@
 <?php
-/* TA.Gist is a PHP template that displays your GitHub gists as blog posts     */
+/* Tist is a PHP template that displays your GitHub gists as blog posts        */
 /* This is a sample raw text gist - http://tebel.org/gist/interface_automation */
 /* Setup comments in uppercase for your action, general comments in lowercase  */
-/* For more info and GitHub repository - https://github.com/tebelorg/TA.Gist   */
+/* For more info and GitHub repository - https://github.com/tebelorg/Tist      */
 
 // OPTION 1 - MANUAL UPDATING OF GIST NAME AND ID
 // ADD GIST NAME FOR YOUR GIST AND ITS ID IN THE FOLLOWING FORMAT
