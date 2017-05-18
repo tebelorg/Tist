@@ -1,7 +1,7 @@
-# TA.Gist
-TA.Gist is a boilerplate to display GitHub gists as blog posts ~ http://tebel.org
+# Tist
+Tist is a boilerplate to display GitHub gists as blog posts ~ http://tebel.org
 
-![Sample Gist](https://github.com/tebelorg/TA.Gist/raw/master/media/sample_raw_text_gist.jpeg)
+![Sample Gist](https://github.com/tebelorg/Tist/raw/master/media/sample_raw_text_gist.jpeg)
 
 # Why This
 If you don't want to spend your life fiddling with themes and plugins just to post something. If you want to have control over layout and styling. If you are the kind of person who, for whatever reason, rather store your content on GitHub.
@@ -28,4 +28,4 @@ Feature|Details
 Enhancements|feel free to review and suggest new features
 
 # License
-TA.Gist is open-source software released under the MIT license
+Tist is open-source software released under the MIT license
