@@ -1,5 +1,5 @@
 # Tist
-Tist is a boilerplate to display GitHub gists as blog posts ~ http://tebel.org
+Tist is a boilerplate to display GitHub gists as blog posts
 
 ![Sample Gist](https://github.com/tebelorg/Tist/raw/master/media/sample_raw_text_gist.jpeg)
 
